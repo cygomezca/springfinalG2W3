@@ -1,4 +1,4 @@
-# sprintfrontendg2w3
+# ecommer
 
 ## Project setup
 ```
