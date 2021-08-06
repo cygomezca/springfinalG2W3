@@ -5,8 +5,10 @@
         img-top
         class="mb-2"
     >
+        <p class="font-weight-bold"> Descripción:</p>
+        <p class="font-weight-normal"> {{ product.description }} </p>
         <p class="muted"> COL $. {{ product.price }} </p>
-        <b-button block 
+        <b-button block
             variant="danger"
             @click="$emit('addToCart', product)"
         >Agregar al carrito</b-button>

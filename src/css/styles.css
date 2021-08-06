@@ -1,0 +1,22 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: unset;
+    user-select: none;
+    background: rgb(105, 104, 104);
+}
+.carousel {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index:-1;
+}
+body { 
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, #723808 100%);
+    font-family: 'Raleway', sans-serif;
+}

@@ -23,10 +23,8 @@ import Layout from '@/layouts/Layout'
 import ProductList from '@/components/ProductsList'
 import Cart from '@/components/Cart'
 import CarouselItem from '@/components/CarouselItem'
-import HeaderItem from './components/HeaderItem'
-import HeaderFooter from './components/HeaderFooter.vue'
-
-
+import HeaderItem from '@/components/HeaderItem'
+import HeaderFooter from '@/components/HeaderFooter'
 
 export default {
   name: 'App',

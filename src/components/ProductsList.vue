@@ -6,14 +6,21 @@
         :per="perPage"
     >
         <b-card-group columns>
-            <product-item 
-                v-for="item in paginated('products')" 
+            <product-item
+                v-for="item in paginated('products')"
                 :key="item.id"
                 :product="item"
                 @addToCart="addProductToCart"
             > </product-item>
         </b-card-group>
     </paginate>
+    <b-pagination-nav
+        v-model="currentPage"
+        :number-of-pages="pages"
+        base-url="#"
+        first-number
+        last-number
+      ></b-pagination-nav>
     <paginate-links for="products"
         :classes="{
             'ul': 'pagination',
